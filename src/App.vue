@@ -45,7 +45,6 @@ export default {
     botStart () {
       // Get token if you want to build a private bot
       // Request first message here
-
       // Fake typing for the first message
       this.botTyping = true
       setTimeout(() => {
