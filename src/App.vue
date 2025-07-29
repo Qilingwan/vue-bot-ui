@@ -75,9 +75,7 @@ export default {
       this.botTyping = true
 
       // Post the message from user here
-      // Then get the response as below
-
-      // Create new message from fake data
+      // Create new message from fake Data
       messageService.createMessage()
         .then((response) => {
           const replyMessage = {
@@ -88,7 +86,7 @@ export default {
           this.inputDisable = response.disableInput
           this.messageData.push(replyMessage)
 
-          // finish
+          // Finish
           this.botTyping = false
         })
     }
