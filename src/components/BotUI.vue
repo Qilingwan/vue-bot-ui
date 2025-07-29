@@ -126,7 +126,7 @@ export default {
 
     // Add class to bot ui wrapper
     uiClasses () {
-      const classes = []
+      let classes = []
 
       if (this.optionsMain.animation) {
         classes.push('qkb-bot-ui--animate')
